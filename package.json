@@ -19,7 +19,7 @@
     "migrate_down": "db-migrate down -c --config ./config/products_config.json",
     "migrate_up": "db-migrate up -c --config. /config/products_config.json",
     "migrate_up_all": "db-migrate up --config ./config/products_config.json",
-    "start": "server/index.js"
+    "start": "node ./server/index.js"
   },
   "browserslist": {
     "production": [
